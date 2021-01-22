@@ -1,14 +1,15 @@
 /*
- Theme Name: Twenty Seventeen Child
- Theme URL: http://localhost/
- Description: Twenty Seventeen Child Theme
- Author: Author
- Author URL: http://localhost/
- Template: twentyseventeen
- Version: 1.0
- Text Domain: twentyseventeen-child
- */
- #ts-color-picker-title {
+Theme Name: Twenty Seventeen Child
+Theme URL: http://localhost/
+Description: Twenty Seventeen Child Theme
+Author: Author
+Author URL: http://localhost/
+Template: twentyseventeen
+Version: 1.0
+Text Domain: twentyseventeen-child
+*/
+
+#ts-color-picker-title {
     cursor: pointer;
     font-family: 'Lobster', cursive;
 }
