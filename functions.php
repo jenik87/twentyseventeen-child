@@ -36,7 +36,7 @@ class TwentySeventeenChildOptionPage {
 	}
 
 	public function ts_create_option_page() {
-		$this->$ts_options = get_option( 'ts_options' ); ?>
+		$this->ts_options = get_option( 'ts_options' ); ?>
 
 		<div class="wrap">
 			<?php settings_errors(); ?>
@@ -91,7 +91,7 @@ class TwentySeventeenChildOptionPage {
 	public function ts_title_callback() {
 		printf(
 			'<input class="regular-text" type="text" name="ts_options[ts_title]" id="ts_title" value="%s">',
-			isset( $this->$ts_options['ts_title'] ) ? esc_attr( $this->$ts_options['ts_title']) : ''
+			isset( $this->ts_options['ts_title'] ) ? esc_attr( $this->ts_options['ts_title']) : ''
 		);
 	}
 
